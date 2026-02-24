@@ -12,15 +12,20 @@ repositories {
     mavenCentral()
     maven("https://oss.sonatype.org/content/groups/public/")
     maven("https://repo.papermc.io/repository/maven-public/") // Paper
+    maven("https://repo.lushplugins.org/snapshots/") // LushLib
 }
 
 dependencies {
     // Dependencies
-    compileOnly("io.papermc.paper:paper-api:1.21.7-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
 
     // Soft Dependencies
 
     // Libraries
+    implementation("org.lushplugins:LushLib:0.10.84")
+    implementation("io.github.revxrsal:lamp.common:4.0.0-rc.14")
+    implementation("io.github.revxrsal:lamp.bukkit:4.0.0-rc.14")
+    implementation("org.lushplugins:PlaceholderHandler:1.0.0-alpha8")
 }
 
 java {
@@ -60,6 +65,7 @@ tasks {
         minecraftVersion("1.21.11")
 
         downloadPlugins {
+            modrinth("placeholderapi", "UmbIiI5H")
             modrinth("viaversion", "5.7.1")
             modrinth("viabackwards", "5.7.1")
         }
