@@ -1,6 +1,6 @@
 package org.lushplugins.regrowthscheduler;
 
-import org.lushplugins.lushlib.plugin.SpigotPlugin;
+import org.lushplugins.lushlib.utils.plugin.SpigotPlugin;
 import org.lushplugins.placeholderhandler.PlaceholderHandler;
 import org.lushplugins.regrowthscheduler.command.ScheduleCommand;
 import org.lushplugins.regrowthscheduler.placeholder.Placeholders;
