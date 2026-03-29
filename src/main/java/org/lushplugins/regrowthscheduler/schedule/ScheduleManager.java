@@ -3,7 +3,7 @@ package org.lushplugins.regrowthscheduler.schedule;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.jetbrains.annotations.NotNull;
-import org.lushplugins.lushlib.utils.YamlUtils;
+import org.lushplugins.lushlib.config.YamlUtils;
 import org.lushplugins.regrowthscheduler.RegrowthScheduler;
 
 import java.io.File;
