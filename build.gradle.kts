@@ -23,8 +23,8 @@ dependencies {
 
     // Libraries
     implementation("org.lushplugins:LushLib:1.0.0")
-    implementation("io.github.revxrsal:lamp.common:4.0.0-rc.17")
-    implementation("io.github.revxrsal:lamp.bukkit:4.0.0-rc.17")
+    implementation("io.github.revxrsal:lamp.common:4.0.0-rc.18")
+    implementation("io.github.revxrsal:lamp.bukkit:4.0.0-rc.18")
     implementation("org.lushplugins:PlaceholderHandler:1.0.0-alpha10")
 }
 
